@@ -1,4 +1,6 @@
 import os
+import boto3
+
 from PyPDF2 import PdfReader
 from langchain import FAISS
 import streamlit as st
